@@ -1,0 +1,782 @@
+/*==============================
+SIZE
+===============================*/
+
+/*==============================
+COLORS
+===============================*/
+
+/*==============================
+FOR  PROJECT
+===============================*/
+
+/*==============================
+FONT-FAMILY
+===============================*/
+
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+input,
+textarea,
+p,
+blockquote,
+th,
+td {
+  margin: 0;
+  padding: 0;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+fieldset,
+img,
+abbr {
+  border: 0;
+}
+
+address,
+caption,
+cite,
+code,
+dfn,
+em,
+strong,
+th,
+var {
+  font-style: normal;
+  font-weight: normal;
+}
+
+ul li {
+  list-style: none;
+}
+
+caption,
+th {
+  text-align: left;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+
+sup {
+  vertical-align: text-top;
+}
+
+sub {
+  vertical-align: text-bottom;
+}
+
+input,
+textarea,
+select {
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+legend {
+  color: #000;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+main {
+  display: block;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Bower components import
+https://corenav.com/index.html
+==============================*/
+
+/*---------------------------------------------------
+    LESS Elements 0.9
+  ---------------------------------------------------
+    A set of useful LESS mixins
+    More info at: http://lesselements.com
+  ---------------------------------------------------*/
+
+/*
+
+  Подключить этот файл в начало CSS/LESS файла
+  
+  Вот так:
+  
+  @import "lesselements.less";
+
+*/
+
+/* MY MIXINS */
+
+.cover {
+  background-size: cover;
+}
+
+/* Vendor libs import
+==============================*/
+
+/* Badges */
+
+/* Tags */
+
+.wrapper-fluid {
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.col-five,
+.col-lg-five,
+.col-md-five,
+.col-sm-five,
+.col-xs-five,
+.col-xxs-five {
+  position: relative;
+  min-height: 1px;
+  padding-left: 1%;
+  padding-right: 1%;
+}
+
+.col-five,
+.col-lg-five,
+.col-md-five,
+.col-sm-five,
+.col-xs-five,
+.col-xxs-five {
+  width: 20%;
+  float: left;
+}
+
+/* 6dp elevation modified*/
+
+/* 12dp elevation modified*/
+
+/* 16dp elevation */
+
+/* 24dp elevation */
+
+/*==========================================*/
+
+/*=======================================*/
+
+/*==================================================*/
+
+/*==================================================*/
+
+/*==================================================*/
+
+/*==================================================*/
+
+/*==================================================*/
+
+/*==================================================*/
+
+/*==================================================*/
+
+/*==================================================*/
+
+/*==================================================*/
+
+/*==================================================*/
+
+/*==================================================*/
+
+/*==================================================*/
+
+/*==================================================*/
+
+/*==================================================*/
+
+/*==================================================*/
+
+/*==================================================*/
+
+/*==================================================*/
+
+/* Project Elements
+==============================*/
+
+/*
+http://chimir.ru/post/39:
+@font-face mixin.������ �������������:
+@family: ��� ������ (�����������).
+@filename: �������� ������, ��� �� ������������ � �������� id ��� ������ � ������� svg
+(�����������, �� ��������� ������������ ��� ������).
+@weight: �������� ������ (�� �����������, �� ��������� normal).
+@style: ����� ������ (�� �����������, �� ��������� normal).
+
+.font-face(Roboto Slab, RobotoSlab-Bold, bold);
+*/
+
+@font-face {
+  font-family: Raleway;
+  src: url('../fonts/RalewayLight.eot');
+  src: url('../fonts/RalewayLight.eot?#iefix') format('embedded-opentype'), url('../fonts/RalewayLight.woff') format('woff'), url('../fonts/RalewayLight.ttf') format('truetype'), url('../fonts/RalewayLight.svg#RalewayLight') format('svg');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Raleway;
+  src: url('fonts/RalewayLight/RalewayLight.eot');
+  src: url('fonts/RalewayLight/RalewayLight.eot?#iefix') format('embedded-opentype'), url('fonts/RalewayLight/RalewayLight.woff') format('woff'), url('fonts/RalewayLight/RalewayLight.ttf') format('truetype'), url('fonts/RalewayLight/RalewayLight.svg#RalewayLight') format('svg');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Raleway;
+  src: url('../fonts/RalewayRegular.eot');
+  src: url('../fonts/RalewayRegular.eot?#iefix') format('embedded-opentype'), url('../fonts/RalewayRegular.woff') format('woff'), url('../fonts/RalewayRegular.ttf') format('truetype'), url('../fonts/RalewayRegular.svg#RalewayRegular') format('svg');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Raleway;
+  src: url('fonts/RalewayRegular/RalewayRegular.eot');
+  src: url('fonts/RalewayRegular/RalewayRegular.eot?#iefix') format('embedded-opentype'), url('fonts/RalewayRegular/RalewayRegular.woff') format('woff'), url('fonts/RalewayRegular/RalewayRegular.ttf') format('truetype'), url('fonts/RalewayRegular/RalewayRegular.svg#RalewayRegular') format('svg');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Raleway;
+  src: url('../fonts/RalewaySemiBold.eot');
+  src: url('../fonts/RalewaySemiBold.eot?#iefix') format('embedded-opentype'), url('../fonts/RalewaySemiBold.woff') format('woff'), url('../fonts/RalewaySemiBold.ttf') format('truetype'), url('../fonts/RalewaySemiBold.svg#RalewaySemiBold') format('svg');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Raleway;
+  src: url('fonts/RalewaySemiBold/RalewaySemiBold.eot');
+  src: url('fonts/RalewaySemiBold/RalewaySemiBold.eot?#iefix') format('embedded-opentype'), url('fonts/RalewaySemiBold/RalewaySemiBold.woff') format('woff'), url('fonts/RalewaySemiBold/RalewaySemiBold.ttf') format('truetype'), url('fonts/RalewaySemiBold/RalewaySemiBold.svg#RalewaySemiBold') format('svg');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Raleway;
+  src: url('../fonts/RalewayBold.eot');
+  src: url('../fonts/RalewayBold.eot?#iefix') format('embedded-opentype'), url('../fonts/RalewayBold.woff') format('woff'), url('../fonts/RalewayBold.ttf') format('truetype'), url('../fonts/RalewayBold.svg#RalewayBold') format('svg');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Raleway;
+  src: url('fonts/RalewayBold/RalewayBold.eot');
+  src: url('fonts/RalewayBold/RalewayBold.eot?#iefix') format('embedded-opentype'), url('fonts/RalewayBold/RalewayBold.woff') format('woff'), url('fonts/RalewayBold/RalewayBold.ttf') format('truetype'), url('fonts/RalewayBold/RalewayBold.svg#RalewayBold') format('svg');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Open Sans;
+  src: url('../fonts/OpenSansLight.eot');
+  src: url('../fonts/OpenSansLight.eot?#iefix') format('embedded-opentype'), url('../fonts/OpenSansLight.woff') format('woff'), url('../fonts/OpenSansLight.ttf') format('truetype'), url('../fonts/OpenSansLight.svg#OpenSansLight') format('svg');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Open Sans;
+  src: url('fonts/OpenSansLight/OpenSansLight.eot');
+  src: url('fonts/OpenSansLight/OpenSansLight.eot?#iefix') format('embedded-opentype'), url('fonts/OpenSansLight/OpenSansLight.woff') format('woff'), url('fonts/OpenSansLight/OpenSansLight.ttf') format('truetype'), url('fonts/OpenSansLight/OpenSansLight.svg#OpenSansLight') format('svg');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Open Sans;
+  src: url('../fonts/OpenSansRegular.eot');
+  src: url('../fonts/OpenSansRegular.eot?#iefix') format('embedded-opentype'), url('../fonts/OpenSansRegular.woff') format('woff'), url('../fonts/OpenSansRegular.ttf') format('truetype'), url('../fonts/OpenSansRegular.svg#OpenSansRegular') format('svg');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Open Sans;
+  src: url('fonts/OpenSansRegular/OpenSansRegular.eot');
+  src: url('fonts/OpenSansRegular/OpenSansRegular.eot?#iefix') format('embedded-opentype'), url('fonts/OpenSansRegular/OpenSansRegular.woff') format('woff'), url('fonts/OpenSansRegular/OpenSansRegular.ttf') format('truetype'), url('fonts/OpenSansRegular/OpenSansRegular.svg#OpenSansRegular') format('svg');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Open Sans;
+  src: url('../fonts/OpenSansSemiBold.eot');
+  src: url('../fonts/OpenSansSemiBold.eot?#iefix') format('embedded-opentype'), url('../fonts/OpenSansSemiBold.woff') format('woff'), url('../fonts/OpenSansSemiBold.ttf') format('truetype'), url('../fonts/OpenSansSemiBold.svg#OpenSansSemiBold') format('svg');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Open Sans;
+  src: url('fonts/OpenSansSemiBold/OpenSansSemiBold.eot');
+  src: url('fonts/OpenSansSemiBold/OpenSansSemiBold.eot?#iefix') format('embedded-opentype'), url('fonts/OpenSansSemiBold/OpenSansSemiBold.woff') format('woff'), url('fonts/OpenSansSemiBold/OpenSansSemiBold.ttf') format('truetype'), url('fonts/OpenSansSemiBold/OpenSansSemiBold.svg#OpenSansSemiBold') format('svg');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Open Sans;
+  src: url('../fonts/OpenSansBold.eot');
+  src: url('../fonts/OpenSansBold.eot?#iefix') format('embedded-opentype'), url('../fonts/OpenSansBold.woff') format('woff'), url('../fonts/OpenSansBold.ttf') format('truetype'), url('../fonts/OpenSansBold.svg#OpenSansBold') format('svg');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Open Sans;
+  src: url('fonts/OpenSansBold/OpenSansBold.eot');
+  src: url('fonts/OpenSansBold/OpenSansBold.eot?#iefix') format('embedded-opentype'), url('fonts/OpenSansBold/OpenSansBold.woff') format('woff'), url('fonts/OpenSansBold/OpenSansBold.ttf') format('truetype'), url('fonts/OpenSansBold/OpenSansBold.svg#OpenSansBold') format('svg');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: lobstertwo;
+  src: url('../fonts/lobstertwo-regular.eot');
+  src: url('../fonts/lobstertwo-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/lobstertwo-regular.woff') format('woff'), url('../fonts/lobstertwo-regular.ttf') format('truetype'), url('../fonts/lobstertwo-regular.svg#lobstertwo-regular') format('svg');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: lobstertwo;
+  src: url('fonts/lobstertwo-regular/lobstertwo-regular.eot');
+  src: url('fonts/lobstertwo-regular/lobstertwo-regular.eot?#iefix') format('embedded-opentype'), url('fonts/lobstertwo-regular/lobstertwo-regular.woff') format('woff'), url('fonts/lobstertwo-regular/lobstertwo-regular.ttf') format('truetype'), url('fonts/lobstertwo-regular/lobstertwo-regular.svg#lobstertwo-regular') format('svg');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: lobstertwo;
+  src: url('../fonts/lobstertwo-italic.eot');
+  src: url('../fonts/lobstertwo-italic.eot?#iefix') format('embedded-opentype'), url('../fonts/lobstertwo-italic.woff') format('woff'), url('../fonts/lobstertwo-italic.ttf') format('truetype'), url('../fonts/lobstertwo-italic.svg#lobstertwo-italic') format('svg');
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: lobstertwo;
+  src: url('fonts/lobstertwo-italic/lobstertwo-italic.eot');
+  src: url('fonts/lobstertwo-italic/lobstertwo-italic.eot?#iefix') format('embedded-opentype'), url('fonts/lobstertwo-italic/lobstertwo-italic.woff') format('woff'), url('fonts/lobstertwo-italic/lobstertwo-italic.ttf') format('truetype'), url('fonts/lobstertwo-italic/lobstertwo-italic.svg#lobstertwo-italic') format('svg');
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: lobstertwo;
+  src: url('../fonts/lobstertwo-bolditalic.eot');
+  src: url('../fonts/lobstertwo-bolditalic.eot?#iefix') format('embedded-opentype'), url('../fonts/lobstertwo-bolditalic.woff') format('woff'), url('../fonts/lobstertwo-bolditalic.ttf') format('truetype'), url('../fonts/lobstertwo-bolditalic.svg#lobstertwo-bolditalic') format('svg');
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: lobstertwo;
+  src: url('fonts/lobstertwo-bolditalic/lobstertwo-bolditalic.eot');
+  src: url('fonts/lobstertwo-bolditalic/lobstertwo-bolditalic.eot?#iefix') format('embedded-opentype'), url('fonts/lobstertwo-bolditalic/lobstertwo-bolditalic.woff') format('woff'), url('fonts/lobstertwo-bolditalic/lobstertwo-bolditalic.ttf') format('truetype'), url('fonts/lobstertwo-bolditalic/lobstertwo-bolditalic.svg#lobstertwo-bolditalic') format('svg');
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: lobstertwo;
+  src: url('../fonts/lobstertwo-bold.eot');
+  src: url('../fonts/lobstertwo-bold.eot?#iefix') format('embedded-opentype'), url('../fonts/lobstertwo-bold.woff') format('woff'), url('../fonts/lobstertwo-bold.ttf') format('truetype'), url('../fonts/lobstertwo-bold.svg#lobstertwo-bold') format('svg');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: lobstertwo;
+  src: url('fonts/lobstertwo-bold/lobstertwo-bold.eot');
+  src: url('fonts/lobstertwo-bold/lobstertwo-bold.eot?#iefix') format('embedded-opentype'), url('fonts/lobstertwo-bold/lobstertwo-bold.woff') format('woff'), url('fonts/lobstertwo-bold/lobstertwo-bold.ttf') format('truetype'), url('fonts/lobstertwo-bold/lobstertwo-bold.svg#lobstertwo-bold') format('svg');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Arabic;
+  src: url('../fonts/Arabic.eot');
+  src: url('../fonts/Arabic.eot?#iefix') format('embedded-opentype'), url('../fonts/Arabic.woff') format('woff'), url('../fonts/Arabic.ttf') format('truetype'), url('../fonts/Arabic.svg#Arabic') format('svg');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Arabic;
+  src: url('fonts/Arabic/Arabic.eot');
+  src: url('fonts/Arabic/Arabic.eot?#iefix') format('embedded-opentype'), url('fonts/Arabic/Arabic.woff') format('woff'), url('fonts/Arabic/Arabic.ttf') format('truetype'), url('fonts/Arabic/Arabic.svg#Arabic') format('svg');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Exo2Bold;
+  src: url('../fonts/Exo2Bold.eot');
+  src: url('../fonts/Exo2Bold.eot?#iefix') format('embedded-opentype'), url('../fonts/Exo2Bold.woff') format('woff'), url('../fonts/Exo2Bold.ttf') format('truetype'), url('../fonts/Exo2Bold.svg#Exo2Bold') format('svg');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Exo2Bold;
+  src: url('fonts/Exo2Bold/Exo2Bold.eot');
+  src: url('fonts/Exo2Bold/Exo2Bold.eot?#iefix') format('embedded-opentype'), url('fonts/Exo2Bold/Exo2Bold.woff') format('woff'), url('fonts/Exo2Bold/Exo2Bold.ttf') format('truetype'), url('fonts/Exo2Bold/Exo2Bold.svg#Exo2Bold') format('svg');
+  font-weight: 400;
+  font-style: normal;
+}
+
+/*===========================
+Table of Content
+
+1. Wrappers
+2. Buttons
+3. Form elements
+4. Font family
+5. Typography
+===========================*/
+
+/* 1. Wrappers
+===========================*/
+
+/*
+.debug {
+    .debug(rgba(0, 0, 0, 0.5), 1px solid #ff0);
+}
+*/
+
+.wrapper {
+  max-width: 1020px;
+  margin: 0 auto;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.container-wrap {
+  min-width: 320px;
+  min-width: 20rem;
+  max-width: 1020px;
+  max-width: 63.75rem;
+  padding: 0 20px;
+  padding: 0 1.25rem;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+* {
+  transition: all 0.5s;
+  transition: all all 0.5s ease-out;
+}
+
+/* 2. Buttons
+===========================*/
+
+/* 3. Form elements
+===========================*/
+
+*::-webkit-input-placeholder {
+  color: #666;
+  opacity: 1;
+}
+
+*:-moz-placeholder {
+  color: #666;
+  opacity: 1;
+}
+
+*::-moz-placeholder {
+  color: #666;
+  opacity: 1;
+}
+
+*:-ms-input-placeholder {
+  color: #666;
+  opacity: 1;
+}
+
+/*4. Font family
+ @import url('https://fonts.googleapis.com/css?family=Raleway:300,400,600,700');
+===========================*/
+
+/*5. Typography
+===========================*/
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #000;
+  overflow-x: hidden;
+}
+
+ul,
+ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+a:focus {
+  outline: none;
+}
+
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*:before,
+*,
+*:after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  min-width: 320px;
+  min-width: 20rem;
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+}
+
+header,
+footer {
+  -ms-flex: 0 0 auto;
+      flex: 0 0 auto;
+}
+
+main {
+  -ms-flex: 1 0 auto;
+      flex: 1 0 auto;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 2.6875rem;
+}
+
+h2 {
+  font-size: 2.125rem;
+}
+
+h3 {
+  font-size: 1.0625rem;
+}
+
+h4 {
+  font-size: 1rem;
+}
+
+h5 {
+  font-size: 0.9375rem;
+}
+
+h6 {
+  font-size: 0.8125rem;
+}
+
+/* Pages import
+==============================*/
+
+/*==========================HOME PAGE==========================*/
+
+.home__wrap {
+  padding-left: 15px;
+  padding-left: 0.9375rem;
+  padding-right: 15px;
+  padding-right: 0.9375rem;
+  margin-left: -1%;
+  margin-right: -1%;
+}
+
+.home__wrap::after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+.home-contents {
+  box-sizing: border-box;
+  word-wrap: break-word;
+  margin-left: 1%;
+  margin-right: 1%;
+  float: left;
+  margin: 10px;
+  margin: 0.625rem;
+  width: 64.66666667%;
+  margin-top: 16px;
+  margin-top: 1rem;
+  margin-bottom: 16px;
+  margin-bottom: 1rem;
+}
+
+.home-sidebar {
+  box-sizing: border-box;
+  word-wrap: break-word;
+  margin-left: 1%;
+  margin-right: 1%;
+  float: right;
+  margin: 10px;
+  margin: 0.625rem;
+  width: 31.33333333%;
+  margin-top: 16px;
+  margin-top: 1rem;
+  margin-bottom: 16px;
+  margin-bottom: 1rem;
+}
+
+@media (min-width: 380px) {
+  .col-xxs-five {
+    width: 20%;
+    float: left;
+  }
+}
+
+@media (min-width: 576px) {
+  .col-xs-five {
+    width: 20%;
+    float: left;
+  }
+}
+
+@media (min-width: 768px) {
+  .col-sm-five {
+    width: 20%;
+    float: left;
+  }
+}
+
+@media (min-width: 992px) {
+  .col-md-five {
+    width: 20%;
+    float: left;
+  }
+}
+
+@media (min-width: 1300px) {
+  .col-lg-five {
+    width: 20%;
+    float: left;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .wrapper-fluid {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .wrapper {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .wrapper-fluid {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .wrapper {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .home-contents {
+    width: 98%;
+  }
+
+  .home-sidebar {
+    width: 98%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  html {
+    font-size: 13px;
+  }
+}
